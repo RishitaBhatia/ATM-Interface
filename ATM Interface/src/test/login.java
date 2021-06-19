@@ -54,7 +54,7 @@ public class login extends JFrame implements ActionListener
 		try
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","RISHITA","honey");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","rishita","honey");
 		}
 		catch(ClassNotFoundException e)  
 		{

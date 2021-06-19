@@ -105,7 +105,7 @@ public class TransferTransaction extends JFrame implements ActionListener
 		try
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			cn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","RISHITA","honey");
+			cn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","rishita","honey");
 		}
 		catch(ClassNotFoundException e)  
 		{

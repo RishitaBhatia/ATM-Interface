@@ -57,7 +57,7 @@ import java.sql.*;
 	
 	public register() 
 	{
-		super("Project");
+		super("Register");
 	
 		JPanel pane = new JPanel();
 		pane.setLayout(null);
@@ -121,7 +121,7 @@ import java.sql.*;
 		try
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","RISHITA","honey");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","rishita","honey");
 		}
 		catch(ClassNotFoundException e)
 		{
